@@ -2,7 +2,10 @@ class Book {
 
   constructor() {
     // TODO...
-    // properties of Book go here
+    this.isbn = null;
+    this.title = null;
+    this.author = null;
+    this.price = null;
   }
 
   // Add methods of Book class like this:
