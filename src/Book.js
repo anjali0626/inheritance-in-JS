@@ -1,17 +1,26 @@
 class Book {
 
   constructor() {
-    // TODO...
     this.isbn = null;
     this.title = null;
     this.author = null;
     this.price = null;
   }
 
-  // Add methods of Book class like this:
-  methodName() {
-    // TODO...
-    // function definition goes here
+  getIsbn() {
+    return this.isbn;
+  }
+
+  getTitle() {
+    return this.title;
+  }
+
+  getAuthor() {
+    return this.author;
+  }
+
+  getPrice() {
+    return this.price;
   }
 
 };
