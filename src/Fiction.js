@@ -2,8 +2,7 @@ class Fiction extends Book {
 
   constructor() {
     super();
-    // TODO...
-    // properties of Fiction go here
+    this.genre = 'Fiction';
   }
 
   // Add methods of Fiction class like this:
