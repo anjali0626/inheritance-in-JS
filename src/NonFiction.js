@@ -2,8 +2,7 @@ class NonFiction extends Book {
 
   constructor() {
     super();
-    // TODO...
-    // properties of NonFiction go here
+    this.genre = 'Non Fiction';
   }
 
   // Add methods of NonFiction class like this:
