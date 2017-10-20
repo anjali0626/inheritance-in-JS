@@ -5,10 +5,11 @@ class Fiction extends Book {
     this.genre = 'Fiction';
   }
 
-  // Add methods of Fiction class like this:
-  methodName() {
-    // TODO...
-    // function definition goes here
+  getGenre() {
+    return this.genre();
   }
+
+  // Add more methods of Fiction class here:
+  // TODO...
 
 };
