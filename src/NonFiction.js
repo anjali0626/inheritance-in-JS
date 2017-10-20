@@ -5,10 +5,11 @@ class NonFiction extends Book {
     this.genre = 'Non Fiction';
   }
 
-  // Add methods of NonFiction class like this:
-  methodName() {
-    // TODO...
-    // function definition goes here
+  getGenre() {
+    return this.genre();
   }
+
+  // Add more methods of NonFiction class here:
+  // TODO...
 
 };
