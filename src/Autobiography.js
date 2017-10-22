@@ -2,8 +2,7 @@ class Autobiography extends NonFiction {
 
   constructor() {
     super();
-    // TODO...
-    // properties of Autobiography go here
+    this.genre = 'Non Fiction: Autobiography';
   }
 
   // Add methods of Autobiography class like this:
