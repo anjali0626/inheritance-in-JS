@@ -2,8 +2,7 @@ class SelfHelp extends NonFiction {
 
   constructor() {
     super();
-    // TODO...
-    // properties of SelfHelp go here
+    this.genre = 'Non Fiction: Self Help';
   }
 
   // Add methods of SelfHelp class like this:
