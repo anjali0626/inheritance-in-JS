@@ -2,8 +2,7 @@ class ScienceFiction extends Fiction {
 
   constructor() {
     super();
-    // TODO...
-    // properties of ScienceFiction go here
+    this.genre = 'Fiction: Science Fiction';
   }
 
   // Add methods of ScienceFiction class like this:
